@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simulación</title>
+	<link rel="stylesheet" type="text/css" href="Css/estilo.css">
+	<script type="text/javascript" src="Js/logica.js"></script>
+</head>
+<body onload="lienzos()" >
+	<div class="cuerpo">
+		<div class="top">
+			<div class="titulo">
+				Simulación de CSMA/CD Y CSMA/CA
+			</div>
+			<br>
+			<hr>
+			<div class="subtitulo">
+				By Sánchez Cabrera Justino Antonio
+			</div>
+			
+		</div>
+		<div class="middle">
+			<div class="conten">
+				INSTRUCCIONES:
+				1.-Presione el botón de simulación una sola vez
+				2.-Si ocurre una colisión la animación iniciará de inmediato, sin embargo si no es así tardará algunos segundos
+				3.-Espere hasta que la animación haya terminado por completo (alrededor de 1 minuto y medio)
+				4.-Si desea repetir la simulación presione el boton de limpiar 
+				<br>
+				Aclaraciones:
+				A.-Naranja = request to send. 
+				B.-Verde = clear to send.
+				C.-Azul = datos. 
+				D.-Amarillo = Ack
+				<br>
+				Aclaraciones PII
+				I.-Si desea más información abra la consola
+				II.-Si no le aparecen las animaciones completas reduzca el zoom de la página
+				<canvas id="lienzo" width="1100px" height="400px">
+					<img src="Img/img1.png" height="150" width="80" id="pc1">
+					<img src="">
+					<img src="">
+					<img src="">	
+				</canvas>
+				
+			</div>
+			<div class="botones">
+				<button onclick="corrercd()" class="bot">Correr simulación CSMA/CD</button>
+				<button onclick="borrarlienzo()" class="bot">Borrar lienzo</button>
+			</div>
+		</div>
+		<div class="down">
+			
+		</div>
+	</div>
+</body>
+</html>

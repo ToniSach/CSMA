@@ -1,0 +1,95 @@
+html {
+	background-color: #F1F0EA;
+}
+
+.top {
+	background-color: #153B50;
+	width: auto;
+	height: 80px;
+	text-decoration: none; 
+	padding: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #F1F2EB;
+}
+
+.titulo {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 24px;
+}
+
+.subtitulo {
+	align-content: right;
+	align-items: right;
+	text-align: right;
+}
+
+.middle {
+	background-color: #F1F0EA;
+	width: 100%;
+	text-decoration: none;
+	position: fixed;
+	left: 0px;
+	top: 110px;
+	color: black;
+}
+
+.conten {
+	background-color: #F1F0EA;
+	width: 100%;
+	height: 65%;
+	text-decoration: none; 
+	color: black;
+	padding: 1rem;
+	position: fixed;
+	left: 0px;
+	top: 110px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#lienzo {
+	background-color: #F1F0EA;
+}
+
+.botones {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #F1F0EA;
+	width: 100%;
+	position: fixed;
+	padding: .5rem;
+	left: 0px;
+	bottom: 6%;
+}
+
+.bot {
+	width: auto;
+    padding: 6px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #561F37;
+    background-color: #AEECEF;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+
+.down {
+	background-color: #F1F0EA;
+	width: 100%;
+	height: auto;
+	text-decoration: none; 
+	padding: 1rem;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	color: #F1F2EB;
+}
